@@ -7,14 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install xmllint
-        run: sudo apt-get install -y bats
-      - name: Chech bats version
-        run: bats --version
-      - name: Pwd and list files
+      - name: Install bats
         run: |
-          pwd
-          ls -al
+         git clone git@github.com:bats-core/bats-core.git
+         sudo ./bats-core/install.sh
+      - name: Check bats version
+        run: bats --version
       - name: Run bats script
         run: bats test.bats -F junit
       
