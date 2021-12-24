@@ -7,9 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Clone bats
+        uses: actions/checkout@master
+        with:
+          repository: bats-core/bats-core
       - name: Install bats
         run: |
-         git clone git@github.com:bats-core/bats-core.git
+         ls -al
          sudo ./bats-core/install.sh
       - name: Check bats version
         run: bats --version
