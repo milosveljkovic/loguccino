@@ -15,7 +15,7 @@ jobs:
       - name: Install bats
         run: |
          ls -al
-         sudo ./bats-core/install.sh
+         sudo ./bats-core/install.sh /usr/local
       - name: Check bats version
         run: bats --version
       - name: Run bats script
