@@ -6,6 +6,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Install xmllint
         run: sudo apt-get install -y bats
       - name: Chech bats version
