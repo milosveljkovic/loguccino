@@ -11,6 +11,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: bats-core/bats-core
+          path: bats-core
       - name: Install bats
         run: |
          ls -al
