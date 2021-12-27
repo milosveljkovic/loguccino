@@ -12,3 +12,5 @@ pluginManagement {
 }
 
 rootProject.name = 'loguccino'
+include 'spring-log-test-project'
+
