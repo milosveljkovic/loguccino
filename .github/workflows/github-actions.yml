@@ -18,6 +18,8 @@ jobs:
          sudo ./bats-core/install.sh /usr/local
       - name: Check bats version
         run: bats --version
-      - name: Run bats script
-        run: bats test.bats -F junit
+      - name: Generate level1-test.csv
+        run: ./scan-output.sh
+      # - name: Run bats script
+      #   run: bats test.bats -F junit
       
