@@ -24,6 +24,6 @@ jobs:
         run: ./scan-output.sh
       - name: Build spring app
         run: cd spring-log-test-project && gradle bootJar
-      # - name: Run bats script
-      #   run: bats test.bats
+      - name: Run bats script
+        run: bats test.bats
       
