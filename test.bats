@@ -93,8 +93,6 @@
     [ "$status" -eq 0 ]
 
     mv loguccino-scan-* loguccino-scan2.csv
-    cat level2-test.csv
-    cat loguccino-scan2.csv
     run diff level2-test.csv loguccino-scan2.csv
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
