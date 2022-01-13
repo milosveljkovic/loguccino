@@ -18,6 +18,8 @@ jobs:
          sudo ./bats-core/install.sh /usr/local
       - name: Check bats version
         run: bats --version
+      - name: Install sed
+        run: apt-get install -y sed
       - name: Generate level1-test.csv
         run: ./scan-output.sh
       # - name: Run bats script
