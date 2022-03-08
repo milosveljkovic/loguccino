@@ -44,4 +44,5 @@ jobs:
       - uses: dorny/test-reporter@v1
         if: always()
         with:
-          files: test-results.xml
+          name: Bats tests
+          path: test-results.xml
