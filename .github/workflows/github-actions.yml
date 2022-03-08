@@ -22,8 +22,8 @@ jobs:
         run: sudo apt-get install -y sed
       - name: Update path in csv test files
         run: ./e2e_tests/set-path.sh
-      # - name: Build spring app
-      #   run: cd spring-log-test-project && gradle bootJar
+      - name: Build spring app
+        run: cd e2e_tests/spring-log-test-project && gradle bootJar
       - name: Run bats script
         run: cd e2e_tests && ls && bats test.bats
       
