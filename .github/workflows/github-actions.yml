@@ -3,7 +3,7 @@ on:
   push:
     branches: [test]
 jobs:
-  Explore-GitHub-Actions:
+  e2e-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,7 +26,8 @@ jobs:
         run: cd e2e_tests/spring-log-test-project && gradle bootJar
       - name: Run bats script
         run: cd e2e_tests && ls && bats --formatter junit test.bats >> test-results.xml
-  Publish-Unit-Test-Results:
+  publish-test-results:
+    needs: [e2e-test]
     runs-on: ubuntu-latest
     steps:
       - uses: EnricoMi/publish-unit-test-result-action@v1
