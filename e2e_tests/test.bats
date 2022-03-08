@@ -16,9 +16,9 @@
     echo "ASSDDDDDDDDDDDD"
     ls
     echo "ASSDDDDDDDDDDDD"
-    cd spring-log-test-project
+    # cd spring-log-test-project
     ls
-    cp './spring-log-test-project/build/libs/spring-log-test-project-v3.0.0-1-g23d4aec.dirty.jar' ../build/libs/spring.jar
+    cp ./spring-log-test-project/build/libs/spring*.jar ../build/libs/spring.jar
     cd ../build/libs/
     mkdir level1
     run zip level1/spring.zip spring.jar
