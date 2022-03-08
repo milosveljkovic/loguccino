@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -43,8 +44,8 @@ public class Utils {
 		return input;
 	}
 
-	public static Set<VulnerableArchive> readAllVulnerabilities(String csvFile) throws IOException, CsvException {
-		Set<VulnerableArchive> all = new HashSet<>();
+	public static List<VulnerableArchive> readAllVulnerabilities(String csvFile) throws IOException, CsvException {
+		List<VulnerableArchive> all = new ArrayList<>();
 		RFC4180Parser windowsFriendlyParser = new RFC4180ParserBuilder().build();
 		try (CSVReader reader = new CSVReaderBuilder(new FileReader(csvFile))
 				.withSkipLines(INVENTORY_SKIP_LINES)
@@ -52,7 +53,8 @@ public class Utils {
 
 			all = reader.readAll().stream()
 					.map(VulnerableArchive::fromCsvRow)
-					.collect(Collectors.toSet());
+					.distinct()
+					.collect(Collectors.toList());
 		}
 		return all;
 	}
@@ -216,5 +218,15 @@ public class Utils {
 		String[] split = nestedPath.split(Constants.NESTED_PATH_SEPARATOR);
 		split[0] = originalFileBackup.toString();
 		return String.join(Constants.NESTED_PATH_SEPARATOR, split);
+	}
+
+	public static boolean isEmpty(Path path) throws IOException {
+		if (Files.isDirectory(path)) {
+			try (DirectoryStream<Path> directory = Files.newDirectoryStream(path)) {
+				return !directory.iterator().hasNext();
+			}
+		}
+
+		return false;
 	}
 }
