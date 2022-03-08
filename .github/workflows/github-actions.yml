@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Test
+name: Run loguccino test
 on:
   push:
     branches: [test]
@@ -21,9 +21,9 @@ jobs:
       - name: Install sed
         run: sudo apt-get install -y sed
       - name: Generate level1-test.csv
-        run: ./scan-output.sh
-      - name: Build spring app
-        run: cd spring-log-test-project && gradle bootJar
+        run: ./e2e_test/set-path.sh
+      # - name: Build spring app
+      #   run: cd spring-log-test-project && gradle bootJar
       - name: Run bats script
         run: bats test.bats
       

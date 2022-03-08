@@ -1,4 +1,0 @@
-"AffectedFile","NestedPath","AffectedVersion","Patched"
-"/home/milosv/Desktop/loguccino/build/libs/level1/spring.zip","/home/milosv/Desktop/loguccino/build/libs/level1/spring.zip::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","false"
-"/home/milosv/Desktop/loguccino/build/libs/level1/spring.tgz","/home/milosv/Desktop/loguccino/build/libs/level1/spring.tgz::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","false"
-"/home/milosv/Desktop/loguccino/build/libs/level1/spring.tar","/home/milosv/Desktop/loguccino/build/libs/level1/spring.tar::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","false"
