@@ -11,13 +11,6 @@
 }
 
 @test "Create level 1 archives." {
-    ls > filenames.txt
-    cat filenames.txt
-    echo "ASSDDDDDDDDDDDD"
-    ls
-    echo "ASSDDDDDDDDDDDD"
-    # cd spring-log-test-project
-    ls
     cp ./spring-log-test-project/build/libs/spring*.jar ../build/libs/spring.jar
     cd ../build/libs/
     mkdir level1
@@ -29,10 +22,6 @@
     [ "$status" -eq 0 ] 
     run ar r level1/spring.ar spring.jar
     [ "$status" -eq 0 ]
-    # run arj a spring spring.jar
-    # [ "$status" -eq 0 ]
-    # run tar -cvjSf level1/spring.tar.bz2 spring.jar
-    # [ "$status" -eq 0 ]
     run tar -cvf level1/spring.tar spring.jar
     [ "$status" -eq 0 ]
     rm spring.jar
@@ -52,10 +41,6 @@
         [ "$status" -eq 0 ] 
         run ar r ../level2/$extension/spring.ar $archive
         [ "$status" -eq 0 ]
-        # run arj a spring $archive
-        # [ "$status" -eq 0 ]
-        # run tar -cvjSf ../level2/$extension/spring.tar.bz2 $archive
-        # [ "$status" -eq 0 ]
         run tar -cvf ../level2/$extension/spring.tar $archive
         [ "$status" -eq 0 ]
     done
@@ -88,10 +73,11 @@
     [ "$status" -eq 0 ]
     
     mv loguccino-scan-* loguccino-scan.csv
-
-    echo "#########################################"
+    ls
     cat ./e2e_tests/level1-test.csv
-    echo "#########################################"
+    echo "ASSDDDDDDDDDDDD"
+    ls
+    echo "ASSDDDDDDDDDDDD"
     cat loguccino-scan.csv
     run diff ./e2e_tests/level1-test.csv loguccino-scan.csv
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
