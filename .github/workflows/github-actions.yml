@@ -46,3 +46,4 @@ jobs:
         with:
           name: Bats tests
           path: test-results.xml
+          reporter: ''
