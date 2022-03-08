@@ -83,12 +83,17 @@
 @test "Scan level 1 archives." {
     cd ..
     cp ./build/libs/loguccino*.jar ./build/libs/loguccino.jar
-    run java -jar ./build/libs/loguccino.jar scan ./build/libs/level1/
 
+    run java -jar ./build/libs/loguccino.jar scan ./build/libs/level1/
     [ "$status" -eq 0 ]
-    mv loguccino-scan-* loguccino-scan.csv
-    run diff ./e2e_tests/level1-test.csv loguccino-scan.csv
     
+    mv loguccino-scan-* loguccino-scan.csv
+
+    echo "#########################################"
+    cat ./e2e_tests/level1-test.csv
+    echo "#########################################"
+    cat loguccino-scan.csv
+    run diff ./e2e_tests/level1-test.csv loguccino-scan.csv
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
 
