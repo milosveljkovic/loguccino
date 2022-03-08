@@ -11,6 +11,8 @@
 }
 
 @test "Create level 1 archives." {
+    ls > filenames.txt
+    cat filenames
     cp e2e_tests/spring-log-test-project/build/libs/spring-*.jar ../build/libs/spring.jar
     cd ../build/libs/
     mkdir level1
