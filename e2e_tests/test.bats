@@ -14,7 +14,7 @@
     ls > filenames.txt
     cat filenames.txt
     echo "ASSDDDDDDDDDDDD"
-    ls ./spring-log-test-project/build/libs/
+    ls 
     cp './spring-log-test-project/build/libs/spring-log-test-project-v3.0.0-1-g23d4aec.dirty.jar' ../build/libs/spring.jar
     cd ../build/libs/
     mkdir level1
