@@ -25,5 +25,5 @@ jobs:
       # - name: Build spring app
       #   run: cd spring-log-test-project && gradle bootJar
       - name: Run bats script
-        run: cd e2e_tests && bats test.bats
+        run: cd e2e_tests && ls && bats test.bats
       

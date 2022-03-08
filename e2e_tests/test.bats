@@ -1,16 +1,16 @@
 # !/usr/bin/env bats
 
-@test "Scenario 0 : Build loguccino." {
+@test "Build loguccino." {
     cd ..
     run ./gradlew shadowDistTar shadowDistZip
     [ "$status" -eq 0 ]
 }
 
-@test "Scenario 1 : Check does /build/libs/loguccino* exist." {
+@test "Check does /build/libs/loguccino* exist." {
     [ -f ../build/libs/loguccino* ]
 }
 
-@test "Scenario 2 : Create level 1 archives." {
+@test "Create level 1 archives." {
     cp ./spring-log-test-project/build/libs/spring-*.jar ../build/libs/spring.jar
     cd ../build/libs/
     mkdir level1
@@ -31,7 +31,7 @@
     rm spring.jar
 }
 
-@test "Scenario 3 : Create level 2 archives." {
+@test "Create level 2 archives." {
     cd ../build/libs/
     mkdir -p level2/zip level2/tgz level2/cpio level2/ar level2/tar
     cd level1
@@ -54,7 +54,7 @@
     done
 }
 
-@test "Scenario 4 : Create level N archives." {
+@test "Create level N archives." {
     cd ../build/libs/
     mkdir -p leveln
     cd level2/zip
@@ -73,7 +73,7 @@
     rm spring.tgz spring.cpio # remove all files other than .ar
 }
 
-@test "Scenario 5 : Scan level 1 archives." {
+@test "Scan level 1 archives." {
     cd ..
     cp ./build/libs/loguccino*.jar ./build/libs/loguccino.jar
     run java -jar ./build/libs/loguccino.jar scan ./build/libs/level1/
@@ -86,7 +86,7 @@
 }
 
 
-@test "Scenario 6 : Scan level 2 archives." {
+@test "Scan level 2 archives." {
     cd ..
     run java -jar ./build/libs/loguccino.jar scan ./build/libs/level2/
     [ "$status" -eq 0 ]
@@ -96,7 +96,7 @@
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
 
-@test "Scenario 7 : Scan level N archives." {
+@test "Scan level N archives." {
     cd ..
     run java -jar ./build/libs/loguccino.jar scan ./build/libs/leveln
     [ "$status" -eq 0 ]
@@ -106,7 +106,7 @@
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
 
-@test "Scenario 8 : Run patch on level1." {
+@test "Run patch on level1." {
     cd ..
     run java -jar ./build/libs/loguccino.jar patch ./loguccino-scan.csv
     [ "$status" -eq 0 ]
@@ -120,7 +120,7 @@
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
 
-@test "Scenario 9 : Run patch on level2." {
+@test "Run patch on level2." {
     cd ..
     run java -jar ./build/libs/loguccino.jar patch ./loguccino-scan2.csv
     [ "$status" -eq 0 ]
@@ -134,7 +134,7 @@
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
 
-@test "Scenario 10 : Run patch on levelN." {
+@test "Run patch on levelN." {
     cd ..
     run java -jar ./build/libs/loguccino.jar patch ./loguccino-scanN.csv
     [ "$status" -eq 0 ]
