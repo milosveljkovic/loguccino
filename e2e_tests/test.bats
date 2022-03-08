@@ -73,12 +73,6 @@
     [ "$status" -eq 0 ]
     
     mv loguccino-scan-* loguccino-scan.csv
-    ls
-    cat ./e2e_tests/level1-test.csv
-    echo "ASSDDDDDDDDDDDD"
-    ls
-    echo "ASSDDDDDDDDDDDD"
-    cat loguccino-scan.csv
     run diff ./e2e_tests/level1-test.csv loguccino-scan.csv
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
@@ -90,6 +84,7 @@
     [ "$status" -eq 0 ]
 
     mv loguccino-scan-* loguccino-scan2.csv
+    cat loguccino-scan2.csv
     run diff ./e2e_tests/level2-test.csv loguccino-scan2.csv
     [ "$status" -eq 0 ] # eq 0 - no difference, eq 1 - there is difference - test fail
 }
