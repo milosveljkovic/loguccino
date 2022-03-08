@@ -26,10 +26,21 @@ jobs:
         run: cd e2e_tests/spring-log-test-project && gradle bootJar
       - name: Run bats script
         run: cd e2e_tests && ls && bats --formatter junit test.bats >> test-results.xml
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: e2e_tests/test-results.xml
+          retention-days: 5
+
   publish-test-results:
     needs: [e2e-test]
     runs-on: ubuntu-latest
     steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: test-results
       - uses: EnricoMi/publish-unit-test-result-action@v1
         if: always()
         with:
