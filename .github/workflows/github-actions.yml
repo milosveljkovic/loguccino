@@ -54,7 +54,11 @@ jobs:
       - name: Customize css
         run: |
           ls
-          sed -i "s@<Allure Report@WTF@g" $GITHUB_JOB/index.html
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          cd gh-pages
+          ls
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          sed -i "s@<Allure Report@WTF@g" ./82/index.html
 
       - name: Deploy report to Github Pages
         if: always()
