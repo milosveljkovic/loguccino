@@ -1,0 +1,152 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az127-609",
+    "children" : [ {
+      "name" : "Create level 1 archives.",
+      "uid" : "114bf18a3ce54501",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836114942,
+        "duration" : 942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on levelN.",
+      "uid" : "31f797aba3be9aa2",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836118311,
+        "duration" : 4311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Build loguccino.",
+      "uid" : "e20fb43e06e0bf9d",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836138443,
+        "duration" : 24443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check does /build/libs/loguccino* exist.",
+      "uid" : "d941ed40dd35cc35",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836114007,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level 1 archives.",
+      "uid" : "4df4f397caccf5d",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836115300,
+        "duration" : 1300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level N archives.",
+      "uid" : "88d1bcb698401be4",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836115096,
+        "duration" : 1096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level 2 archives.",
+      "uid" : "74fd00a648db6bf5",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836117492,
+        "duration" : 3492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level N archives.",
+      "uid" : "8ffdaa1301bc148",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836114695,
+        "duration" : 695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level 2 archives.",
+      "uid" : "cdf605fd17362695",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836117468,
+        "duration" : 3468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level1.",
+      "uid" : "496ee6a7635494e5",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836120340,
+        "duration" : 6340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level2.",
+      "uid" : "92608b27423c15a5",
+      "parentUid" : "cde1fe8512aeeed9dc8ae5715e7b29b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646836114000,
+        "stop" : 1646836142457,
+        "duration" : 28457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cde1fe8512aeeed9dc8ae5715e7b29b0"
+  } ],
+  "name" : "timeline"
+}
