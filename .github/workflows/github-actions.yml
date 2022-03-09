@@ -59,11 +59,11 @@ jobs:
           ls
           echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
           cd ..
-          cd allure-reports
+          cd allure-report
           ls
           echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
           cd ..
-          cd allure-histroy
+          cd allure-history
           ls
       - name: Deploy report to Github Pages
         if: always()
