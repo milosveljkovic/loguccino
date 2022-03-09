@@ -1,0 +1,90 @@
+{
+  "uid" : "574581aeabfc86e1",
+  "name" : "Check does /build/libs/loguccino* exist.",
+  "historyId" : "test.bats:test.bats#Check does /build/libs/loguccino* exist.",
+  "time" : {
+    "start" : 1646847375000,
+    "stop" : 1646847375007,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az131-659"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "78fdc5a02f4cd902",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/99//#testresult/78fdc5a02f4cd902",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646846605000,
+          "stop" : 1646846605007,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "974fcf4e8945b4c",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/96//#testresult/974fcf4e8945b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845968000,
+          "stop" : 1646845968008,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "cc2206f60e5a2f08",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/cc2206f60e5a2f08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845569008,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "574581aeabfc86e1.json",
+  "parameterValues" : [ ]
+}

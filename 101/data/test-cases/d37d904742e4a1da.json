@@ -1,0 +1,90 @@
+{
+  "uid" : "d37d904742e4a1da",
+  "name" : "Build loguccino.",
+  "historyId" : "test.bats:test.bats#Build loguccino.",
+  "time" : {
+    "start" : 1646847375000,
+    "stop" : 1646847397053,
+    "duration" : 22053
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az131-659"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5d69afe5297c2630",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/99//#testresult/5d69afe5297c2630",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646846605000,
+          "stop" : 1646846625970,
+          "duration" : 20970
+        }
+      }, {
+        "uid" : "d9b7259901e34819",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/96//#testresult/d9b7259901e34819",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845968000,
+          "stop" : 1646845996968,
+          "duration" : 28968
+        }
+      }, {
+        "uid" : "14b2e3c798b6aab",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/14b2e3c798b6aab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845594943,
+          "duration" : 25943
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d37d904742e4a1da.json",
+  "parameterValues" : [ ]
+}
