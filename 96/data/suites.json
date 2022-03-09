@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test.bats",
+    "children" : [ {
+      "name" : "Check does /build/libs/loguccino* exist.",
+      "uid" : "974fcf4e8945b4c",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845968008,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level 2 archives.",
+      "uid" : "c9a4fb69938e83e",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845972014,
+        "duration" : 4014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level 1 archives.",
+      "uid" : "6acad6517db59e2d",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845969103,
+        "duration" : 1103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level1.",
+      "uid" : "9f6bacd208f22fa6",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845975580,
+        "duration" : 7580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level 2 archives.",
+      "uid" : "7ea13133e1e8af97",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845972135,
+        "duration" : 4135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level 1 archives.",
+      "uid" : "5add98a9a9edbdb2",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845969628,
+        "duration" : 1628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level N archives.",
+      "uid" : "cb813387fd880bc5",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845969063,
+        "duration" : 1063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level N archives.",
+      "uid" : "3d40a0a5ee8288be",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845968781,
+        "duration" : 781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on levelN.",
+      "uid" : "9ef40db9a761bf7",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845973173,
+        "duration" : 5173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Build loguccino.",
+      "uid" : "d9b7259901e34819",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646845996968,
+        "duration" : 28968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level2.",
+      "uid" : "c1faaedf58a83375",
+      "parentUid" : "2c48ca55a6c31803bc79619ce7e2a0bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845968000,
+        "stop" : 1646846001264,
+        "duration" : 33264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2c48ca55a6c31803bc79619ce7e2a0bf"
+  } ],
+  "name" : "suites"
+}

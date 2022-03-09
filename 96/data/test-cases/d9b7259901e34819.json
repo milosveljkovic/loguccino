@@ -1,0 +1,72 @@
+{
+  "uid" : "d9b7259901e34819",
+  "name" : "Build loguccino.",
+  "historyId" : "test.bats:test.bats#Build loguccino.",
+  "time" : {
+    "start" : 1646845968000,
+    "stop" : 1646845996968,
+    "duration" : 28968
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-44"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "14b2e3c798b6aab",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/14b2e3c798b6aab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845594943,
+          "duration" : 25943
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d9b7259901e34819.json",
+  "parameterValues" : [ ]
+}
