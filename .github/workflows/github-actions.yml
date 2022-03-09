@@ -53,7 +53,7 @@ jobs:
       
       - name: Customize css
         run: |
-          sudo cp -r e2e_tests/static allure-history/plugins
+          sudo cp -r e2e_tests/static allure-history/plugins/static
           sudo cp e2e_tests/index.html allure-history/index.html
           ls allure-history/plugins
           cat allure-history/index.html
