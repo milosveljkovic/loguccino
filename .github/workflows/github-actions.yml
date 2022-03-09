@@ -15,23 +15,23 @@ jobs:
 
       - name: Install dependencies
         run: |
-         ls -al
-         sudo ./bats-core/install.sh /usr/local
-         sudo apt-get install -y sed
-         bats --version
+          ls -al
+          sudo ./bats-core/install.sh /usr/local
+          sudo apt-get install -y sed
+          bats --version
 
       - name: Update path in csv test files
         run: ./e2e_tests/set-path.sh
 
       - name: Build Spring App
         run: |
-        cd e2e_tests/spring-log-test-project
-        gradle bootJar
+          cd e2e_tests/spring-log-test-project
+          gradle bootJar
 
       - name: Run bats script
         run: |
-        cd e2e_tests
-        bats --formatter junit test.bats >> test-results.xml
+          cd e2e_tests
+          bats --formatter junit test.bats >> test-results.xml
 
       - name: Get Allure history
         uses: actions/checkout@v2
