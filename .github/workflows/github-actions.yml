@@ -58,8 +58,13 @@ jobs:
           cd gh-pages
           ls
           echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-          sed -i "s@<Allure Report@WTF@g" ./82/index.html
-
+          cd ..
+          cd allure-reports
+          ls
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          cd ..
+          cd allure-histroy
+          ls
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
