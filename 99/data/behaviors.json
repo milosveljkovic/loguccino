@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create level N archives.",
+    "uid" : "e434e1be49122955",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846605668,
+      "duration" : 668
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create level 1 archives.",
+    "uid" : "9e1b050ee1d764a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846605906,
+      "duration" : 906
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Run patch on levelN.",
+    "uid" : "c6d6710069a727be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846609190,
+      "duration" : 4190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scan level 1 archives.",
+    "uid" : "814e5bbca0d8fb3e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846606184,
+      "duration" : 1184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check does /build/libs/loguccino* exist.",
+    "uid" : "78fdc5a02f4cd902",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846605007,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scan level N archives.",
+    "uid" : "d0c3a477f3aa4452",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846606137,
+      "duration" : 1137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Run patch on level2.",
+    "uid" : "1c5ce88f208e2361",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846633115,
+      "duration" : 28115
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Run patch on level1.",
+    "uid" : "5c552d81ae872673",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846611168,
+      "duration" : 6168
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create level 2 archives.",
+    "uid" : "c20d8ff817ac0bba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846608460,
+      "duration" : 3460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scan level 2 archives.",
+    "uid" : "65dd4d16e708b645",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846608300,
+      "duration" : 3300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Build loguccino.",
+    "uid" : "5d69afe5297c2630",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646846605000,
+      "stop" : 1646846625970,
+      "duration" : 20970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

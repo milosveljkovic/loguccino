@@ -1,0 +1,81 @@
+{
+  "uid" : "e434e1be49122955",
+  "name" : "Create level N archives.",
+  "historyId" : "test.bats:test.bats#Create level N archives.",
+  "time" : {
+    "start" : 1646846605000,
+    "stop" : 1646846605668,
+    "duration" : 668
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-272"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3d40a0a5ee8288be",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/96//#testresult/3d40a0a5ee8288be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845968000,
+          "stop" : 1646845968781,
+          "duration" : 781
+        }
+      }, {
+        "uid" : "412536db1233edf1",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/412536db1233edf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845569789,
+          "duration" : 789
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e434e1be49122955.json",
+  "parameterValues" : [ ]
+}

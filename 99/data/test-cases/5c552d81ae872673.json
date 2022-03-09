@@ -1,0 +1,81 @@
+{
+  "uid" : "5c552d81ae872673",
+  "name" : "Run patch on level1.",
+  "historyId" : "test.bats:test.bats#Run patch on level1.",
+  "time" : {
+    "start" : 1646846605000,
+    "stop" : 1646846611168,
+    "duration" : 6168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-272"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9f6bacd208f22fa6",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/96//#testresult/9f6bacd208f22fa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845968000,
+          "stop" : 1646845975580,
+          "duration" : 7580
+        }
+      }, {
+        "uid" : "16da528ddb82e458",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/16da528ddb82e458",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845576074,
+          "duration" : 7074
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c552d81ae872673.json",
+  "parameterValues" : [ ]
+}
