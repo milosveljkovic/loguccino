@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://milosveljkovic.github.io/loguccino",
+  "buildOrder" : 74,
+  "buildName" : "GitHub Actions Run #1957329851",
+  "buildUrl" : "https://github.com/milosveljkovic/loguccino/actions/runs/1957329851",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/74/"
+} ]
