@@ -23,15 +23,15 @@ jobs:
       - name: Update path in csv test files
         run: ./e2e_tests/set-path.sh
 
-      - name: Build Spring App
-        run: |
-          cd e2e_tests/spring-log-test-project
-          gradle bootJar
+      # - name: Build Spring App
+      #   run: |
+      #     cd e2e_tests/spring-log-test-project
+      #     gradle bootJar
 
-      - name: Run bats script
-        run: |
-          cd e2e_tests
-          bats --formatter junit test.bats >> test-results.xml
+      # - name: Run bats script
+      #   run: |
+      #     cd e2e_tests
+      #     bats --formatter junit test.bats >> test-results.xml
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -55,14 +55,14 @@ jobs:
         run: |
           sudo cp -r e2e_tests/static allure-report/plugins/static
           sudo cp e2e_tests/index.html allure-report/index.html
-      
-      # - name: ASD
-      #   run: |
-      #     ls allure-history
+          
+      - name: report
+        run: |
+          ls allure-report/plugins/
         
-      # - name: report
-      #   run: |
-      #     ls allure-report
+      - name: report
+        run: |
+          ls allure-report
 
       - name: Deploy report to Github Pages
         if: always()
