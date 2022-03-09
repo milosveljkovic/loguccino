@@ -55,7 +55,7 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
@@ -63,8 +63,8 @@ jobs:
         if: always()
         uses: Sibz/github-status-action@v1
         with: 
-            authToken: ${{ secrets.GITHUB_TOKEN }}
+            authToken: ${{ secrets.TOKEN }}
             context: 'Test report'
             state: 'success'
-            sha: ${{ github.event.pull_request.head.sha }}
+            sha: ${{ github.event.pull_request.head.ref }}
             target_url: https://milosveljkovic.github.io/loguccino/${{ github.run_number }}
