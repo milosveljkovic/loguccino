@@ -1,0 +1,99 @@
+{
+  "uid" : "122c4d275fd5cdcd",
+  "name" : "Scan level 1 archives.",
+  "historyId" : "test.bats:test.bats#Scan level 1 archives.",
+  "time" : {
+    "start" : 1646847828000,
+    "stop" : 1646847829254,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.bats"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-609"
+  }, {
+    "name" : "testClass",
+    "value" : "test.bats"
+  }, {
+    "name" : "package",
+    "value" : "test.bats"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e3d3265c4f4d9564",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/101//#testresult/e3d3265c4f4d9564",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646847375000,
+          "stop" : 1646847376213,
+          "duration" : 1213
+        }
+      }, {
+        "uid" : "814e5bbca0d8fb3e",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/99//#testresult/814e5bbca0d8fb3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646846605000,
+          "stop" : 1646846606184,
+          "duration" : 1184
+        }
+      }, {
+        "uid" : "5add98a9a9edbdb2",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/96//#testresult/5add98a9a9edbdb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845968000,
+          "stop" : 1646845969628,
+          "duration" : 1628
+        }
+      }, {
+        "uid" : "a49ad3379897a65",
+        "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/a49ad3379897a65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646845569000,
+          "stop" : 1646845570432,
+          "duration" : 1432
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "122c4d275fd5cdcd.json",
+  "parameterValues" : [ ]
+}
