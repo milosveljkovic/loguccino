@@ -60,7 +60,6 @@ jobs:
       
       - name: ASD
         run: |
-          cat allure-history/index.html
           ls allure-history/plugins
 
       - name: Deploy report to Github Pages
