@@ -1,4 +1,0 @@
-"AffectedFile","NestedPath","AffectedVersion","Patched"
-"<PATH>/build/libs/level1/spring.zip","<PATH>/build/libs/level1/spring.zip::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","true"
-"<PATH>/build/libs/level1/spring.tgz","<PATH>/build/libs/level1/spring.tgz::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","true"
-"<PATH>/build/libs/level1/spring.tar","<PATH>/build/libs/level1/spring.tar::spring.jar::BOOT-INF/lib/log4j-core-2.12.0.jar","2.12.0","true"
