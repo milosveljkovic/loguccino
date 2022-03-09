@@ -58,10 +58,10 @@ jobs:
           ls allure-history/plugins
           cat allure-history/index.html
       
-      # -name: ASD
-      #   run: |
-      #     cat allure-history/index.html
-      #     ls allure-history/plugins
+      - name: ASD
+        run: |
+          cat allure-history/index.html
+          ls allure-history/plugins
 
       - name: Deploy report to Github Pages
         if: always()
