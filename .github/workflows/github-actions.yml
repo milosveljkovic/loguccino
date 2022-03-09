@@ -54,7 +54,7 @@ jobs:
       - name: Customize css
         run: |
           cp -r static allure-history/plugins
-          sed -i "s@Allure Report@$Loguccino@g" allure-history/index.html
+          cp index.html allure-history/index.html
 
       - name: Deploy report to Github Pages
         if: always()
