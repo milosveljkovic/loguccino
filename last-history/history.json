@@ -1,0 +1,222 @@
+{
+  "test.bats:test.bats#Scan level 2 archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d7ad7d68bec6d8d",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/4d7ad7d68bec6d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845572905,
+        "duration" : 3905
+      }
+    } ]
+  },
+  "test.bats:test.bats#Create level 1 archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6a5e5e5423077f",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/d6a5e5e5423077f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845570305,
+        "duration" : 1305
+      }
+    } ]
+  },
+  "test.bats:test.bats#Run patch on level2." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "417fd4e39d5ff0f6",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/417fd4e39d5ff0f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845601554,
+        "duration" : 32554
+      }
+    } ]
+  },
+  "test.bats:test.bats#Run patch on level1." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16da528ddb82e458",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/16da528ddb82e458",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845576074,
+        "duration" : 7074
+      }
+    } ]
+  },
+  "test.bats:test.bats#Check does /build/libs/loguccino* exist." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc2206f60e5a2f08",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/cc2206f60e5a2f08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845569008,
+        "duration" : 8
+      }
+    } ]
+  },
+  "test.bats:test.bats#Run patch on levelN." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "740ff2e0948a44d4",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/740ff2e0948a44d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845574027,
+        "duration" : 5027
+      }
+    } ]
+  },
+  "test.bats:test.bats#Build loguccino." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14b2e3c798b6aab",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/14b2e3c798b6aab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845594943,
+        "duration" : 25943
+      }
+    } ]
+  },
+  "test.bats:test.bats#Scan level 1 archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a49ad3379897a65",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/a49ad3379897a65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845570432,
+        "duration" : 1432
+      }
+    } ]
+  },
+  "test.bats:test.bats#Scan level N archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23ec8f86b416540f",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/23ec8f86b416540f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845569993,
+        "duration" : 993
+      }
+    } ]
+  },
+  "test.bats:test.bats#Create level 2 archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba3eef24c8bc04a",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/6ba3eef24c8bc04a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845573039,
+        "duration" : 4039
+      }
+    } ]
+  },
+  "test.bats:test.bats#Create level N archives." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "412536db1233edf1",
+      "reportUrl" : "https://milosveljkovic.github.io/loguccino/95//#testresult/412536db1233edf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646845569000,
+        "stop" : 1646845569789,
+        "duration" : 789
+      }
+    } ]
+  }
+}
