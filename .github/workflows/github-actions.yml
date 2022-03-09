@@ -53,18 +53,9 @@ jobs:
       
       - name: Customize css
         run: |
-          ls
-          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-          cd gh-pages
-          ls
-          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-          cd ..
-          cd allure-report
-          ls
-          echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-          cd ..
-          cd allure-history
-          ls
+          cp static allure-history/plugins
+          sed -i "s@Allure Report@$Loguccino@g" allure-history/index.html
+          
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
