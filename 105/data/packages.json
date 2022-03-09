@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.bats",
+    "children" : [ {
+      "name" : "Scan level 1 archives.",
+      "uid" : "3fcc2776ee5a68e7",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848442598,
+        "duration" : 1598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level N archives.",
+      "uid" : "dce95d178ee0e562",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848442120,
+        "duration" : 1120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level 1 archives.",
+      "uid" : "d69ce22560cfb9cb",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848442091,
+        "duration" : 1091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level2.",
+      "uid" : "1e46f0a92d497f17",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848474834,
+        "duration" : 33834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on levelN.",
+      "uid" : "83d6a1a5cb1c299",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848446324,
+        "duration" : 5324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check does /build/libs/loguccino* exist.",
+      "uid" : "8b6d569f534250cd",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848441009,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level N archives.",
+      "uid" : "628b98402553b63d",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848441804,
+        "duration" : 804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Run patch on level1.",
+      "uid" : "f9042bd08ac0f6da",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848448631,
+        "duration" : 7631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Build loguccino.",
+      "uid" : "8196a57cfb243383",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848468509,
+        "duration" : 27509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create level 2 archives.",
+      "uid" : "2fba50252244d879",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848445154,
+        "duration" : 4154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scan level 2 archives.",
+      "uid" : "ad4f491859c068a7",
+      "parentUid" : "2fd8398888d81f3dfc434ae2f04065bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646848441000,
+        "stop" : 1646848445289,
+        "duration" : 4289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.bats"
+  } ],
+  "name" : "packages"
+}
