@@ -27,7 +27,7 @@ jobs:
       - name: target/allure-results
         run: mkdir -p target/allure-results
       - name: Run bats script
-        run: cd e2e_tests && ls && bats --formatter junit test.bats >> ..target/allure-results/test-results.xml
+        run: cd e2e_tests && ls && bats --formatter junit test.bats >> ../target/allure-results/test-results.xml
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
