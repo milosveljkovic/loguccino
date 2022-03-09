@@ -1,5 +1,5 @@
 results.csv
-# target/
+target/
 patch-*/
 /loguccino*.csv
 /loguccino*.log
