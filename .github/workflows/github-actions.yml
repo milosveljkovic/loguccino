@@ -32,22 +32,25 @@ jobs:
           name: test-results
           path: e2e_tests/test-results.xml
           retention-days: 5
+
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
         with:
-          ref: gh-pages 
+          ref: gh-pages
           path: gh-pages
+
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
+        id: allure-report
         with:
-          allure_results: allure-results
+          allure_results: e2e_tests/test-results.xml
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
-          keep_reports: 20
+
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
