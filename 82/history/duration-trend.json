@@ -1,0 +1,66 @@
+[ {
+  "buildOrder" : 82,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/82/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 33173
+  }
+}, {
+  "buildOrder" : 81,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/81/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 29790
+  }
+}, {
+  "buildOrder" : 80,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/80/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 28457
+  }
+}, {
+  "buildOrder" : 79,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/79/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 31875
+  }
+}, {
+  "buildOrder" : 78,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/78/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 32006
+  }
+}, {
+  "buildOrder" : 76,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/76/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 29689
+  }
+}, {
+  "buildOrder" : 74,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/74/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 28068
+  }
+}, {
+  "buildOrder" : 73,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/73/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 25721
+  }
+}, {
+  "buildOrder" : 72,
+  "reportUrl" : "https://milosveljkovic.github.io/loguccino/72/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 29592
+  }
+}, {
+  "data" : { }
+} ]
