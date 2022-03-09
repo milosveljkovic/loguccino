@@ -53,8 +53,11 @@ jobs:
       
       - name: Customize css
         run: |
+          cat allure-history/index.html
           sudo cp -r e2e_tests/static allure-history/plugins
           sudo cp e2e_tests/index.html allure-history/index.html
+          ls allure-history/plugins
+          cat allure-history/index.html
 
       - name: Deploy report to Github Pages
         if: always()
