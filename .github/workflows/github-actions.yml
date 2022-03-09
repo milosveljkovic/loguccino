@@ -24,13 +24,15 @@ jobs:
         run: ./e2e_tests/set-path.sh
       - name: Build spring app
         run: cd e2e_tests/spring-log-test-project && gradle bootJar
+      - name: target/allure-results
+        run: mkdir -p target/allure-results
       - name: Run bats script
-        run: cd e2e_tests && ls && bats --formatter junit test.bats >> test-results.xml
+        run: cd e2e_tests && ls && bats --formatter junit test.bats >> ..target/allure-results/test-results.xml
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: e2e_tests/test-results.xml
+          path: target/allure-results/test-results.xml
           retention-days: 5
 
       - name: Get Allure history
@@ -46,7 +48,7 @@ jobs:
         if: always()
         id: allure-report
         with:
-          allure_results: e2e_tests/test-results.xml
+          allure_results: target/allure-results/test-results.xml
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
@@ -59,15 +61,15 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
-  publish-test-results:
-    needs: [e2e-test]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download a single artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: test-results
-      - uses: EnricoMi/publish-unit-test-result-action@v1
-        if: always()
-        with:
-          files: test-results.xml
+  # publish-test-results:
+  #   needs: [e2e-test]
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Download a single artifact
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: test-results
+  #     - uses: EnricoMi/publish-unit-test-result-action@v1
+  #       if: always()
+  #       with:
+  #         files: test-results.xml
