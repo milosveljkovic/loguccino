@@ -62,6 +62,10 @@ jobs:
       - name: ASD
         run: |
           ls allure-history
+        
+      - name: report
+        run: |
+          ls allure-report
 
       - name: Deploy report to Github Pages
         if: always()
