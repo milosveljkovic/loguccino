@@ -6,7 +6,7 @@
     [ "$status" -eq 0 ]
 }
 
-@test "Check does /build/libs/loguccino* exist." {
+@test "Check that /build/libs/loguccino* exist." {
     [ -f ../build/libs/loguccino* ]
 }
 

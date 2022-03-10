@@ -31,7 +31,7 @@ jobs:
       - name: Run bats script
         run: |
           cd e2e_tests
-          bats --formatter junit test.bats >> test-results.xml
+          bats --formatter junit loguccino-e2e.test >> test-results.xml
 
       - name: Get Allure history
         uses: actions/checkout@v2
