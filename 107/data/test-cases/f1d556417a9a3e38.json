@@ -1,0 +1,52 @@
+{
+  "uid" : "f1d556417a9a3e38",
+  "name" : "Create level 2 archives.",
+  "historyId" : "loguccino-e2e.test:loguccino-e2e.test#Create level 2 archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908340378,
+    "duration" : 4378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-875"
+  }, {
+    "name" : "testClass",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "package",
+    "value" : "loguccino-e2e.test"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1d556417a9a3e38.json",
+  "parameterValues" : [ ]
+}

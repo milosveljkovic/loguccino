@@ -1,0 +1,52 @@
+{
+  "uid" : "e6e178227a1c5057",
+  "name" : "Check that /build/libs/loguccino* exist.",
+  "historyId" : "loguccino-e2e.test:loguccino-e2e.test#Check that /build/libs/loguccino* exist.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908336009,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-875"
+  }, {
+    "name" : "testClass",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "package",
+    "value" : "loguccino-e2e.test"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6e178227a1c5057.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "5073a3ec1b23423b",
+  "name" : "Scan level N archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908337022,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc445a1bf0173a71",
+  "name" : "Run patch on levelN.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908341283,
+    "duration" : 5283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2511d6f1c34d410b",
+  "name" : "Create level N archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908336810,
+    "duration" : 810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af6f31bfa8ee5311",
+  "name" : "Run patch on level1.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908343038,
+    "duration" : 7038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2cd4700d31112e5",
+  "name" : "Run patch on level2.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908370039,
+    "duration" : 34039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d556417a9a3e38",
+  "name" : "Create level 2 archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908340378,
+    "duration" : 4378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e3e1e08a46f774",
+  "name" : "Scan level 2 archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908340179,
+    "duration" : 4179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b62f04a2b05b82",
+  "name" : "Scan level 1 archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908337463,
+    "duration" : 1463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6e178227a1c5057",
+  "name" : "Check that /build/libs/loguccino* exist.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908336009,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc5263d6dcd26403",
+  "name" : "Build loguccino.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908397978,
+    "duration" : 61978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cefa24af043b370",
+  "name" : "Create level 1 archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908337198,
+    "duration" : 1198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

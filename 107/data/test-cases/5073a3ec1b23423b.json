@@ -1,0 +1,52 @@
+{
+  "uid" : "5073a3ec1b23423b",
+  "name" : "Scan level N archives.",
+  "historyId" : "loguccino-e2e.test:loguccino-e2e.test#Scan level N archives.",
+  "time" : {
+    "start" : 1646908336000,
+    "stop" : 1646908337022,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-875"
+  }, {
+    "name" : "testClass",
+    "value" : "loguccino-e2e.test"
+  }, {
+    "name" : "package",
+    "value" : "loguccino-e2e.test"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5073a3ec1b23423b.json",
+  "parameterValues" : [ ]
+}
